@@ -52,6 +52,19 @@ button, .btn {
 	}
 }
 
+.radio-btn {
+	input {
+		display: none;
+		&:checked + span {
+			box-shadow: 0 0 0 1px currentColor inset;
+		}
+	}
+	span {
+		box-shadow: 0 0 0 1px var(--border-color) inset;
+		transition: box-shadow .6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	}
+}
+
 input[type="text"] {
 	border: none;
 	display: block;
