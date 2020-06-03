@@ -11,3 +11,13 @@
   margin-right: auto;
   max-width: var(--grid-container-width);
 }
+
+.gradient-text {
+	background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.light-text {
+  color: var(--alt-color);
+}
