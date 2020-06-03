@@ -1,6 +1,6 @@
 <template>
   <section class="contact-form pt6 pb6">
-    <form class="content-center">
+    <form class="content-container">
       <h3 class="mb3">Get in touch</h3>
       <div>
         <label class="radio-btn mr1" v-for="(subject, key) in subjects" :key="key">

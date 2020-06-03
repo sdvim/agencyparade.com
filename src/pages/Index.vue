@@ -1,13 +1,13 @@
 <template>
   <Layout>
     <section class="flex flex-column flex-j-center min-height-vh">
-      <div class="content-center">
+      <div class="content-container">
         <h1 class="gradient-text mb2">Create digital experiences your customers will love</h1>
         <p class="light-text width-6-col">Parade is a design team helping businesses elevate their web and mobile experiences.</p>
       </div>
     </section>
     <hr>
-    <section class="content-center flex pt6 pb5">
+    <section class="content-container flex pt6 pb5">
       <div class="width-6-col flex flex-1">
         <g-image alt="Design planning" src="~/assets/images/design-flow.svg" width="488" height="265" blur="5" />
       </div>
@@ -23,7 +23,7 @@
       </div>
     </section>
     <section class="bg-content">
-      <div class="content-center flex pt6 pb5">
+      <div class="content-container flex pt6 pb5">
         <div class="width-6-col flex-1">
           <h2 class="mb3">Evaluate your<br>product or website</h2>
           <p>We conduct an in-depth audit to identify what exactly your customers are looking for and pinpoint the spots where user experience can be improved.</p>
@@ -39,12 +39,12 @@
         </div>
       </div>
     </section>
-    <blockquote class="content-center text-center pt9 pb9">
+    <blockquote class="content-container text-center pt9 pb9">
       <p class="large-text">“Parade functioned as part of our team, helping to crystalize our vision and delivering incredible results in record time”</p>
       <footer class="small-text">– Brian, Product Manger at Telnyx</footer>
     </blockquote>
     <hr>
-    <section class="content-center pt6">
+    <section class="content-container pt6">
       <h4>RECENT WORK</h4>
       <div class="flex flex-between pt5 pb5">
         <div class="width-5-col" style="align-self: center;">
@@ -57,7 +57,7 @@
       </div>
     </section>
     <section class="bg-content">
-      <div class="content-center flex flex-between pt5 pb5">
+      <div class="content-container flex flex-between pt5 pb5">
         <div class="width-5-col" style="align-self: center;">
           <h3>Increasing conversion for a growing networking company</h3>
           <p class="small-text">UX & Information Architecture for Telnyx</p>
@@ -68,7 +68,7 @@
       </div>
     </section>
     <section class="bg-dark">
-      <div class="content-center pt6 pb6 white-text">
+      <div class="content-container pt6 pb6 white-text">
         <h4>RECENT WORK</h4>
         <p class="width-6-col">Our team has experience working with startups and large enterprises across various industries.</p>
         <div class="flex flex-wrap flex-between width-8-col">
