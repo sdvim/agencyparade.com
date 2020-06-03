@@ -18,9 +18,51 @@ img {
 }
 
 button, .btn {
+	background: transparent;
 	border: 0;
 	border-radius: var(--radius);
 	box-shadow: 0 0 0 1px currentColor inset;
 	padding: 1.333rem 2rem;
 	display: inline-block;
+}
+.btn {
+	&--filled {
+		background: var(--title-color);
+		box-shadow: none;
+		color: var(--bg-color);
+	}
+}
+
+input[type="text"] {
+	border: none;
+	display: block;
+	font-size: 1.5rem;
+	font-family: inherit;
+	line-height: 2.333rem;
+	padding: 1.25rem 0;
+	border-bottom: 1px solid var(--border-color);
+	outline: none;
+	&:hover {
+		border-bottom-color: var(--title-color);
+	}
+	&:focus,
+	&:active {
+		border-image-slice: 1;
+		border-image-source: var(--gradient-primary);
+	}
+	&::-webkit-input-placeholder {
+		color: var(--alt-color);
+	}
+	&:-ms-input-placeholder {
+		color: var(--alt-color);
+	}
+	&::placeholder {
+		color: var(--alt-color);
+	}
+}
+
+.content {
+	margin-left: auto;
+  margin-right: auto;
+  max-width: var(--grid-container-width);
 }
