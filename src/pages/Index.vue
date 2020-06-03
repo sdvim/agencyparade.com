@@ -44,6 +44,29 @@
       <footer class="small-text">– Brian, Product Manger at Telnyx</footer>
     </blockquote>
     <hr>
+    <section class="content-center pt6">
+      <h4>RECENT WORK</h4>
+      <div class="flex flex-between pt5 pb5">
+        <div class="width-5-col" style="align-self: center;">
+          <h3>Helping Pressed validate a cross platform, on-demand laundry service</h3>
+          <p class="small-text">UX & UI for an MVP for Pressed</p>
+          <button class="btn--gradient">Approach</button>
+        </div>
+        <div class="width-5-col ratio-square bg-moody-blue">
+        </div>
+      </div>
+    </section>
+    <section class="bg-content">
+      <div class="content-center flex flex-between pt5 pb5">
+        <div class="width-5-col" style="align-self: center;">
+          <h3>Increasing conversion for a growing networking company</h3>
+          <p class="small-text">UX & Information Architecture for Telnyx</p>
+          <button class="btn--gradient">Approach</button>
+        </div>
+        <div class="width-5-col ratio-square bg-celeste">
+        </div>
+      </div>
+    </section>
   </Layout>
 </template>
 
