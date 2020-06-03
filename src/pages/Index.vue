@@ -115,7 +115,7 @@ export default {
     PostCard
   },
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Parade'
   },
   data() {
     return {
