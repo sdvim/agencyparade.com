@@ -37,6 +37,12 @@ button, .btn {
 		box-shadow: none;
 		color: var(--bg-color);
 	}
+	&--gradient {
+		box-shadow: none;
+		border: 2px solid var(--border-color);
+		border-image-slice: 1;
+		border-image-source: var(--gradient-primary);
+	}
 }
 
 input[type="text"] {

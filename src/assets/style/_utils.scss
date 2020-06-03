@@ -18,6 +18,18 @@
   -webkit-text-fill-color: transparent;
 }
 
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1 50%;
+}
+
+.pt6 {
+  padding-top: 6rem;
+}
+
 .light-text {
   color: var(--alt-color);
 }
