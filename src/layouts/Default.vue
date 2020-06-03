@@ -15,6 +15,8 @@
       <slot/>
     </main>
 
+    <ContactForm />
+
     <footer class="footer">
       <div class="grid">
         <div class="grid__half">
@@ -39,6 +41,7 @@
 </template>
 
 <script>
+import ContactForm from '~/components/ContactForm.vue'
 import Logo from '~/components/Logo.vue'
 import ToggleTheme from '~/components/ToggleTheme.vue'
 
@@ -47,6 +50,7 @@ export default {
     showLogo: { default: true }
   },
   components: {
+    ContactForm,
     Logo,
     ToggleTheme
   }
