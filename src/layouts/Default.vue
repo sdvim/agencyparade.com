@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 
-    <header class="header content">
+    <header class="header content-center">
       <div class="header__left">
         <Logo />
       </div>
