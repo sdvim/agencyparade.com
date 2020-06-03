@@ -1,15 +1,15 @@
 <template>
   <div id="app">
 
-    <!-- <header class="header">
+    <header class="header content">
       <div class="header__left">
-        <Logo v-if="showLogo" /> 
+        <Logo />
       </div>
       
       <div class="header__right">        
-        <ToggleTheme />
+        <g-link class="btn btn--filled" to="/contact">Contact</g-link>
       </div>
-    </header> -->
+    </header>
 
     <main class="main">
       <slot/>
@@ -61,9 +61,15 @@ export default {
   justify-content: space-between;
   align-items: center;
   min-height: var(--header-height);
-  padding: 0 calc(var(--space) / 2);
-  top:0;
+  top: 0;
   z-index: 10;
+
+  .logo {
+    transform: translateX(-43%);
+    svg {
+      height: 3.75rem;
+    }
+  }
 
   &__left,
   &__right {
