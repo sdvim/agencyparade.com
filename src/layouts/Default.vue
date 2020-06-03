@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 
-    <header class="header">
+    <!-- <header class="header">
       <div class="header__left">
         <Logo v-if="showLogo" /> 
       </div>
@@ -9,7 +9,7 @@
       <div class="header__right">        
         <ToggleTheme />
       </div>
-    </header>
+    </header> -->
 
     <main class="main">
       <slot/>
