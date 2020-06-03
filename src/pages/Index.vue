@@ -6,6 +6,7 @@
         <p class="light-text width-6-col">Parade is a design team helping businesses elevate their web and mobile experiences.</p>
       </div>
     </section>
+    <hr>
     <section class="content-center flex pt6 pb5">
       <div class="width-6-col flex flex-1">
         <g-image alt="Design planning" src="~/assets/images/design-flow.svg" width="488" height="265" blur="5" />
@@ -84,6 +85,5 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-bottom: 2rem solid;
 }
 </style>
