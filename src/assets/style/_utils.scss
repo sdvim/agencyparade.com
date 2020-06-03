@@ -19,6 +19,7 @@
 }
 
 .flex { display: flex; }
+.flex-wrap { flex-wrap: wrap; }
 .flex-1 { flex: 1 50%; }
 .flex-between { justify-content: space-between; }
 
@@ -35,6 +36,8 @@
 .mb4 { margin-bottom: 4rem; }
 .mb5 { margin-bottom: 5rem; }
 .mb6 { margin-bottom: 6rem; }
+
+.mr1 { margin-right: var(--grid-gutter); }
 
 .pt1 { padding-top: 1rem; }
 .pt2 { padding-top: 2rem; }
@@ -56,12 +59,23 @@
 .pb8 { padding-bottom: 8rem; }
 .pb9 { padding-bottom: 9rem; }
 
+.white-text {
+  color: var(--bg-color);
+}
+
 .light-text {
   color: var(--alt-color);
 }
 
 .min-height-vh {
   min-height: 100vh;
+}
+
+.width-2-col {
+  --column-width: calc(var(--grid-width) * 2);
+  --gutter-width: calc(var(--grid-gutter) * 1);
+  max-width: calc(var(--column-width) + var(--gutter-width));
+  width: 100%;
 }
 
 .width-5-col {
@@ -74,6 +88,13 @@
 .width-6-col {
   --column-width: calc(var(--grid-width) * 6);
   --gutter-width: calc(var(--grid-gutter) * 5);
+  max-width: calc(var(--column-width) + var(--gutter-width));
+  width: 100%;
+}
+
+.width-8-col {
+  --column-width: calc(var(--grid-width) * 8);
+  --gutter-width: calc(var(--grid-gutter) * 7);
   max-width: calc(var(--column-width) + var(--gutter-width));
   width: 100%;
 }
@@ -95,3 +116,4 @@
 .bg-content { background-color: var(--bg-content-color); }
 .bg-moody-blue { background-color: var(--color-moody-blue); }
 .bg-celeste { background-color: var(--color-celeste); }
+.bg-dark { background-color: var(--body-color); }

@@ -67,6 +67,18 @@
         </div>
       </div>
     </section>
+    <section class="bg-dark">
+      <div class="content-center pt6 pb6 white-text">
+        <h4>RECENT WORK</h4>
+        <p class="width-6-col">Our team has experience working with startups and large enterprises across various industries.</p>
+        <div class="flex flex-wrap flex-between width-8-col">
+          <div class="width-2-col text-center mt4" v-for="(label, key) in industries" :key="key">
+            <img :alt="label" :src="`/icons/${key}.svg`" width="48" height="48" />
+            <p class="small-text white-text">{{ label }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </Layout>
 </template>
 
@@ -104,6 +116,20 @@ export default {
   },
   metaInfo: {
     title: 'Hello, world!'
+  },
+  data() {
+    return {
+      industries: {
+        b2b: 'B2B',
+        saas: 'SaaS',
+        marketplace: 'Marketplace',
+        tourism: 'Tourism',
+        transportation: 'Transportation',
+        finance: 'Finance',
+        enterprise: 'Enterprise',
+        government: 'Government',
+      }
+    };
   }
 }
 </script>
