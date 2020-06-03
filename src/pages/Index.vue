@@ -1,6 +1,9 @@
 <template>
-  <Layout :show-logo="false">
-
+  <Layout>
+    <section class="hero content-center min-height-vh">
+      <h1 class="gradient-text">Create digital experiences your customers will love</h1>
+      <p class="light-text width-6-col">Parade is a design team helping businesses elevate their web and mobile experiences.</p>
+    </section>
   </Layout>
 </template>
 
@@ -41,3 +44,14 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h1 {
+    margin-bottom: 2rem;
+  }
+}
+</style>
