@@ -16,8 +16,23 @@
     </main>
 
     <footer class="footer">
-      <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}. </span>
-      <span class="footer__links">Powered by <a href="//gridsome.org"> Gridsome </a></span>
+      <div class="grid">
+        <div class="grid__half">
+          <a href="/">
+            <g-image class="footer__logo" alt="Parade logo" src="~/assets/images/logo.svg" width="313" height="68" blur="5" />
+          </a>
+          <p class="footer__location">Made in Washington DC</p>
+        </div>
+        <div class="grid__half">
+          <a class="footer__email h2" href="mailto:hi@agencyparade.com">hi@agencyparade.com </a>
+          <ul class="footer__links">
+            <li><a href="/process">Process</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__copyright">&copy; Agency Parade. All Rights Reserved.</div>
     </footer>
 
   </div>
@@ -67,19 +82,54 @@ export default {
 }
 
 .footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: calc(var(--space) / 2);
-  text-align: center;
-  font-size: .8em;
+  background: var(--bg-footer);
+  color: var(--bg-color);
+  font-size: 1.5rem;
+  line-height: 1.5555;
+  padding: 10rem calc(2 * var(--space)) 4rem;
 
-  > span {
-    margin: 0 .35em;
+  &__logo {
+    width: auto;
+    height: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  &__location {
+    opacity: .5;
+    margin-left: calc(var(--grid-width) + var(--grid-gutter));
+    margin-left: 95px;
+    margin-bottom: 0;
+  }
+
+  &__email {
+    display: block;
+    letter-spacing: -1px;
+    margin-bottom: 3.1666rem;
+  }
+
+  &__links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin: 0;
+      min-width: var(--grid-width);
+      margin-right: var(--grid-gutter);
+    }
+  }
+
+  &__copyright {
+    font-size: 1.1666rem;
+    opacity: .5;
+    margin-top: 6rem;
+    text-align: center;
   }
 
   a {
     color: currentColor;
+    text-decoration: none;
   }
 }
 </style>
