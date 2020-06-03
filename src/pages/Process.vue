@@ -1,0 +1,118 @@
+<template>
+  <Layout>
+    <section class="flex flex-column flex-j-center min-height-vh pt6 pb6">
+      <div class="content-container flex flex-between flex-a-center">
+        <div class="width-6-col">
+          <h1 class="mb2">Approach</h1>
+          <p class="light-text">We communicate insight early and often, functioning as an embedded part of your team to deliver solutions built on a shared vision.</p>
+        </div>
+        <div class="width-5-col ml2">
+          <g-image src="~/assets/images/approach.svg" />
+        </div>
+      </div>
+    </section>
+    <section class="bg-content pt6 pb6">
+      <div class="content-container flex flex-j-end">
+        <div class="width-8-col">
+          <h4>PROCESS</h4>
+          <div class="flex flex-between pt2 pb4" :class="index !== Object.keys(processes).length - 1 ? 'bb1' : ''" v-for="(text, title, index) in processes" :key="title">
+            <h3 class="flex-1 width-3-col capitalize">{{ title }}</h3>
+            <p class="flex-1 fs18">{{ text }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-dark pt6 pb6">
+      <div class="content-container">
+        <h4 class="mb2">CAPABILITIES</h4>
+        <div class="flex">
+          <div class="width-3-col" v-for="(list, title) in capabilities" :key="title">
+            <h3 class="light-text mb2">{{ title }}</h3>
+            <ul class="fs18 mb0 white-text">
+              <li v-for="item in list" :key="item">{{ item }}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pt9 pb9">
+      <div class="content-container flex flex-between flex-a-center">
+        <div class="width-5-col mr2">
+          <g-image src="~/assets/images/development.svg" />
+        </div>
+        <p class="large-text width-5-col">Execute confidently with development-ready designs your engineering team needs</p>
+      </div>
+    </section>
+    <hr>
+  </Layout>
+</template>
+
+<page-query>
+query {
+  posts: allPost(filter: { published: { eq: true }}) {
+    edges {
+      node {
+        id
+        title
+        date (format: "D. MMMM YYYY")
+        timeToRead
+        description
+        cover_image (width: 770, height: 380, blur: 10)
+        path
+        tags {
+          id
+          title
+          path
+        }
+      }
+    }
+  }
+}
+</page-query>
+
+<script>
+import Author from '~/components/Author.vue'
+import PostCard from '~/components/PostCard.vue'
+
+export default {
+  components: {
+    Author,
+    PostCard
+  },
+  metaInfo: {
+    title: 'Process'
+  },
+  data() {
+    return {
+      processes: {
+        discovery: 'Each project begins by learning more about your business and customers. We gather requirements, pain points, and align on goals for success.',
+        audit: 'Our evaluation includes an in-depth review of your website or product\'s content, navigation, interface, and overall user experience.',
+        wireframe: 'Once we are aligned with your customers goals, we will create wireframes. This is done to layout the content and functionality of each page.',
+        test: 'Usability testing ensures that functionality and layout are aligned to customer needs.',
+        style: 'We use you brand\'s identity is used as inspiration for color themes, font, icons, and hi-fidelity designs. Down’t worry if you haven’t figured it out yet, we can help with that too.',
+        deliver: 'We\'ll leave you with high fidelity mockups and an interactive prototype ready for handoff to engineers.',
+      },
+      capabilities: {
+        Research: [
+          'Usability testing',
+          'User Interviews',
+          'Heuristic analysis',
+          'A/B testing',
+        ],
+        UX: [
+          'Personas',
+          'User flows',
+          'Wireframes',
+          'Information architecture',
+        ],
+        UI: [
+          'High-fidelity mockups',
+          'Interactive prototypes',
+          'Visual direction',
+          'Design systems',
+        ],
+      },
+    };
+  }
+}
+</script>

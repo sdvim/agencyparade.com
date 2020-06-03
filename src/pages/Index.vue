@@ -50,7 +50,7 @@
         <div class="width-5-col" style="align-self: center;">
           <h3>Helping Pressed validate a cross platform, on-demand laundry service</h3>
           <p class="small-text">UX & UI for an MVP for Pressed</p>
-          <button class="btn--gradient">Approach</button>
+          <g-link class="btn btn--gradient" to="/process">Approach</g-link>
         </div>
         <div class="width-5-col ratio-square bg-moody-blue">
         </div>
@@ -61,7 +61,7 @@
         <div class="width-5-col" style="align-self: center;">
           <h3>Increasing conversion for a growing networking company</h3>
           <p class="small-text">UX & Information Architecture for Telnyx</p>
-          <button class="btn--gradient">Approach</button>
+          <g-link class="btn btn--gradient" to="/process">Approach</g-link>
         </div>
         <div class="width-5-col ratio-square bg-celeste">
         </div>
