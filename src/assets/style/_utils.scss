@@ -21,3 +21,13 @@
 .light-text {
   color: var(--alt-color);
 }
+
+.min-height-vh {
+  min-height: 100vh;
+}
+
+.width-6-col {
+  --column-width: calc(var(--grid-width) * 6);
+  --gutter-width: calc(var(--grid-gutter) * 5);
+  max-width: calc(var(--column-width) + var(--gutter-width));
+}
