@@ -62,7 +62,11 @@ export default {
   align-items: center;
   min-height: var(--header-height);
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 10;
+  width: 100%;
+  position: absolute;
 
   .logo {
     transform: translateX(-43%);
@@ -77,16 +81,11 @@ export default {
     align-items: center;
   }
 
-  @media screen and (min-width: 1300px) {
-    //Make header sticky for large screens
-    position: sticky;
-    width: 100%;
-  }
-}
-
-.main {
-  margin: 0 auto;
-  padding: 1.5vw 15px 0;
+  // @media screen and (min-width: 1300px) {
+  //   //Make header sticky for large screens
+  //   position: sticky;
+  //   width: 100%;
+  // }
 }
 
 .footer {
