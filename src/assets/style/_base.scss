@@ -16,3 +16,11 @@ body {
 img {
 	max-width: 100%;
 }
+
+button, .btn {
+	border: 0;
+	border-radius: var(--radius);
+	box-shadow: 0 0 0 1px currentColor inset;
+	padding: 1.333rem 2rem;
+	display: inline-block;
+}
