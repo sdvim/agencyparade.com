@@ -20,9 +20,7 @@
     <footer class="footer">
       <div class="grid">
         <div class="grid__half">
-          <a href="/">
-            <g-image class="footer__logo" alt="Parade logo" src="~/assets/images/logo.svg" width="313" height="68" blur="5" />
-          </a>
+          <Logo />
           <p class="footer__location">Made in Washington DC</p>
         </div>
         <div class="grid__half">
@@ -92,10 +90,11 @@ export default {
   line-height: 1.5555;
   padding: 10rem calc(2 * var(--space)) 4rem;
 
-  &__logo {
-    width: auto;
-    height: 4rem;
+  .logo {
     margin-bottom: 1rem;
+    svg {
+      height: 4rem;
+    }
   }
 
   &__location {
