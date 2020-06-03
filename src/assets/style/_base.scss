@@ -100,4 +100,5 @@ input[type="text"] {
 	max-width: calc(var(--grid-container-width) + var(--space) * 2);
 	padding-left: var(--space);
 	padding-right: var(--space);
+	width: 100%;
 }
