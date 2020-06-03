@@ -21,6 +21,8 @@
 .flex { display: flex; }
 .flex-wrap { flex-wrap: wrap; }
 .flex-1 { flex: 1 50%; }
+.flex-column { flex-direction: column; }
+.flex-j-center { justify-content: center; }
 .flex-between { justify-content: space-between; }
 
 .mt1 { margin-top: 1rem; }
