@@ -4,31 +4,31 @@
       <div class="content-container flex flex-between flex-a-center">
         <div class="width-6-col">
           <h1 class="mb2">Approach</h1>
-          <p class="light-text">We communicate insight early and often, functioning as an embedded part of your team to deliver solutions built on a shared vision.</p>
+          <p class="color-grey">We communicate insight early and often, functioning as an embedded part of your team to deliver solutions built on a shared vision.</p>
         </div>
         <div class="width-5-col ml2">
           <g-image src="~/assets/images/approach.svg" />
         </div>
       </div>
     </section>
-    <section class="bg-content pt6 pb6">
+    <section class="bg-offwhite pt6 pb6">
       <div class="content-container flex flex-j-end">
         <div class="width-8-col">
           <h4>PROCESS</h4>
           <div class="flex flex-between pt2 pb4" :class="index !== Object.keys(processes).length - 1 ? 'bb1' : ''" v-for="(text, title, index) in processes" :key="title">
-            <h3 class="flex-1 width-3-col capitalize">{{ title }}</h3>
+            <h3 class="flex-1 width-3-col text-capitalize">{{ title }}</h3>
             <p class="flex-1 fs18">{{ text }}</p>
           </div>
         </div>
       </div>
     </section>
-    <section class="bg-dark pt6 pb6">
+    <section class="bg-darkgrey pt6 pb6">
       <div class="content-container">
         <h4 class="mb2">CAPABILITIES</h4>
         <div class="flex">
           <div class="width-3-col" v-for="(list, title) in capabilities" :key="title">
-            <h3 class="light-text mb2">{{ title }}</h3>
-            <ul class="fs18 mb0 white-text">
+            <h3 class="color-grey mb2">{{ title }}</h3>
+            <ul class="fs18 mb0 color-white">
               <li v-for="item in list" :key="item">{{ item }}</li>
             </ul>
           </div>
@@ -40,7 +40,7 @@
         <div class="width-5-col mr2">
           <g-image src="~/assets/images/development.svg" />
         </div>
-        <p class="large-text width-5-col">Execute confidently with development-ready designs your engineering team needs</p>
+        <p class="fs-large width-5-col">Execute confidently with development-ready designs your engineering team needs</p>
       </div>
     </section>
     <hr>

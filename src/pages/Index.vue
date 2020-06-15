@@ -3,7 +3,7 @@
     <section class="flex flex-column flex-j-center min-height-vh">
       <div class="content-container">
         <h1 class="gradient-text mb2">Create digital experiences your customers will love</h1>
-        <p class="light-text width-6-col">Parade is a design team helping businesses elevate their web and mobile experiences.</p>
+        <p class="color-grey width-6-col">Parade is a design team helping businesses elevate their web and mobile experiences.</p>
       </div>
     </section>
     <hr>
@@ -14,7 +14,7 @@
       <div class="width-6-col flex-1">
         <h2 class="mb3">Design an experience</h2>
         <p>Your customer’s needs are unique, so how they interact with you via web and mobile must be unique as well. We develop and redesign platforms with one goal in mind: creating user-friendly, optimized, and distinctive digital experiences for your customers.</p>
-        <ul class="small-text">
+        <ul class="fs-small">
           <li>Align on vision and project goals</li>
           <li>Design and validate concepts</li>
           <li>Deliver high fidelity assets ready for development</li>
@@ -22,12 +22,12 @@
         <button class="btn--gradient">Ask about this</button>
       </div>
     </section>
-    <section class="bg-content">
+    <section class="bg-offwhite">
       <div class="content-container flex pt6 pb5">
         <div class="width-6-col flex-1">
           <h2 class="mb3">Evaluate your<br>product or website</h2>
           <p>We conduct an in-depth audit to identify what exactly your customers are looking for and pinpoint the spots where user experience can be improved.</p>
-          <ul class="small-text">
+          <ul class="fs-small">
             <li>Quickly uncover usability issues</li>
             <li>Validate designs with real users</li>
             <li>Maximize efficiency for your customers</li>
@@ -40,8 +40,8 @@
       </div>
     </section>
     <blockquote class="content-container text-center pt9 pb9">
-      <p class="large-text">“Parade functioned as part of our team, helping to crystalize our vision and delivering incredible results in record time”</p>
-      <footer class="small-text">– Brian, Product Manger at Telnyx</footer>
+      <p class="fs-large">“Parade functioned as part of our team, helping to crystalize our vision and delivering incredible results in record time”</p>
+      <footer class="fs-small">– Brian, Product Manger at Telnyx</footer>
     </blockquote>
     <hr>
     <section class="content-container pt6">
@@ -49,32 +49,32 @@
       <div class="flex flex-between pt5 pb5">
         <div class="width-5-col" style="align-self: center;">
           <h3>Helping Pressed validate a cross platform, on-demand laundry service</h3>
-          <p class="small-text">UX & UI for an MVP for Pressed</p>
+          <p class="fs-small">UX & UI for an MVP for Pressed</p>
           <g-link class="btn btn--gradient" to="/process">Approach</g-link>
         </div>
         <div class="width-5-col ratio-square bg-moody-blue">
         </div>
       </div>
     </section>
-    <section class="bg-content">
+    <section class="bg-offwhite">
       <div class="content-container flex flex-between pt5 pb5">
         <div class="width-5-col" style="align-self: center;">
           <h3>Increasing conversion for a growing networking company</h3>
-          <p class="small-text">UX & Information Architecture for Telnyx</p>
+          <p class="fs-small">UX & Information Architecture for Telnyx</p>
           <g-link class="btn btn--gradient" to="/process">Approach</g-link>
         </div>
         <div class="width-5-col ratio-square bg-celeste">
         </div>
       </div>
     </section>
-    <section class="bg-dark">
-      <div class="content-container pt6 pb6 white-text">
+    <section class="bg-darkgrey">
+      <div class="content-container pt6 pb6 color-white">
         <h4>RECENT WORK</h4>
         <p class="width-6-col">Our team has experience working with startups and large enterprises across various industries.</p>
         <div class="flex flex-wrap flex-between width-8-col">
           <div class="width-2-col text-center mt4" v-for="(label, key) in industries" :key="key">
             <img :alt="label" :src="`/icons/${key}.svg`" width="48" height="48" />
-            <p class="small-text white-text">{{ label }}</p>
+            <p class="fs-small color-white">{{ label }}</p>
           </div>
         </div>
       </div>

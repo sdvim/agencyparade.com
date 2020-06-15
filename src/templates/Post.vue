@@ -105,7 +105,7 @@ query Post ($id: ID!) {
 
     p:first-of-type {
       font-size: 1.2em;
-      color: var(--title-color);
+      color: var(--color-black);
     }
 
     img {

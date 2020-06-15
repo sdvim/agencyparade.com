@@ -5,18 +5,17 @@ html {
 
 // Light default theme
 body {
+	--color-white: #FFFFFF;
+	--color-offwhite: #F9F9F9;
+	--color-lightgrey: #D2D2D2;
+	--color-grey: #707070;
+	--color-darkgrey: #292929;
+	--color-black: #000000;
 	--color-celeste: #1ABCAE;
 	--color-moody-blue: #646DD4;
+	--color-blue: #4965C8;
+ 	--color-purple: #9F23F5;
 	--gradient-primary: linear-gradient(135deg, #1ABCAE, #9F23F5);
- 	--bg-color: #FFFFFF;
- 	--bg-content-color: #F9F9F9;
- 	--bg-code: #fffbf3;
-	--bg-footer: #4965C8;
-	--body-color: #292929;
-	--alt-color: #707070;
-	--title-color: #000000;
- 	--link-color: #9F23F5;
- 	--border-color: #D2D2D2;
   --space: 2rem;
   --content-width: 860px;
   --header-height: 9.666rem;
@@ -47,11 +46,4 @@ body {
 
 // Override variables for Dark theme
 // body[data-theme="dark"] {
-//  	--bg-color: #0D2538;
-//  	--bg-content-color: #0f2d44;
-//  	--bg-code: rgba(0,0,0,.3);
-//  	--border-color:  rgba(255,255,255,.1);;
-//  	--body-color: #ced8de;
-//  	--title-color: #fff;
-//  	--link-color: #af9cef;
 // }

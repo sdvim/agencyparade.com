@@ -9,3 +9,38 @@
     width: 50%;
   }
 }
+
+.width-2-col {
+  --column-width: calc(var(--grid-width) * 2);
+  --gutter-width: calc(var(--grid-gutter) * 1);
+  max-width: calc(var(--column-width) + var(--gutter-width));
+  width: 100%;
+}
+
+.width-3-col {
+  --column-width: calc(var(--grid-width) * 3);
+  --gutter-width: calc(var(--grid-gutter) * 2);
+  max-width: calc(var(--column-width) + var(--gutter-width));
+  width: 100%;
+}
+
+.width-5-col {
+  --column-width: calc(var(--grid-width) * 5);
+  --gutter-width: calc(var(--grid-gutter) * 4);
+  max-width: calc(var(--column-width) + var(--gutter-width));
+  width: 100%;
+}
+
+.width-6-col {
+  --column-width: calc(var(--grid-width) * 6);
+  --gutter-width: calc(var(--grid-gutter) * 5);
+  max-width: calc(var(--column-width) + var(--gutter-width));
+  width: 100%;
+}
+
+.width-8-col {
+  --column-width: calc(var(--grid-width) * 8);
+  --gutter-width: calc(var(--grid-gutter) * 7);
+  max-width: calc(var(--column-width) + var(--gutter-width));
+  width: 100%;
+}

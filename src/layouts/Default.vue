@@ -89,8 +89,8 @@ export default {
 }
 
 .footer {
-  background: var(--bg-footer);
-  color: var(--bg-color);
+  background: var(--color-blue);
+  color: var(--color-white);
   font-size: 1.5rem;
   line-height: 1.5555;
   padding: 10rem calc(2 * var(--space)) 4rem;
