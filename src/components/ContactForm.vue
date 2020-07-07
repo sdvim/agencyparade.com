@@ -39,7 +39,7 @@ export default {
         },
         evaluate: {
           label: 'Evaluate your product',
-          placeholder: 'Stay a while and listen.'
+          placeholder: 'Let\'s address your elephant in the room.'
         },
         chat: {
           label: 'Say hi',

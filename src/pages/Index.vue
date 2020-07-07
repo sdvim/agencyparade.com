@@ -81,7 +81,7 @@
           <div class="flex flex-wrap flex-between width-8-col">
             <div class="width-2-col text-center mt4" v-for="(label, key) in industries" :key="key">
               <img :alt="label" :src="`/icons/${key}.svg`" width="48" height="48" />
-              <p class="fs-small color-white">{{ label }}</p>
+              <p class="fs-small color-white mt1">{{ label }}</p>
             </div>
           </div>
         </div>
