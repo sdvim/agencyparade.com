@@ -14,7 +14,7 @@
       <div class="width-6-col flex-1">
         <h2 class="mb3">Design an experience</h2>
         <p>Your customer’s needs are unique, so how they interact with you via web and mobile must be unique as well. We develop and redesign platforms with one goal in mind: creating user-friendly, optimized, and distinctive digital experiences for your customers.</p>
-        <ul class="fs-small">
+        <ul class="fs-small mt2 mb2 color-grey">
           <li>Align on vision and project goals</li>
           <li>Design and validate concepts</li>
           <li>Deliver high fidelity assets ready for development</li>
@@ -27,7 +27,7 @@
         <div class="width-6-col flex-1">
           <h2 class="mb3">Evaluate your<br>product or website</h2>
           <p>We conduct an in-depth audit to identify what exactly your customers are looking for and pinpoint the spots where user experience can be improved.</p>
-          <ul class="fs-small">
+          <ul class="fs-small mt2 mb2 color-grey">
             <li>Quickly uncover usability issues</li>
             <li>Validate designs with real users</li>
             <li>Maximize efficiency for your customers</li>
@@ -49,7 +49,7 @@
       <div class="flex flex-between pt5 pb5">
         <div class="width-5-col" style="align-self: center;">
           <h3>Helping Pressed validate a cross platform, on-demand laundry service</h3>
-          <p class="fs-small">UX & UI for an MVP for Pressed</p>
+          <p class="fs-small color-grey mt1 mb2">UX & UI for an MVP for Pressed</p>
           <g-link class="btn btn--gradient" to="/process">Approach</g-link>
         </div>
         <div class="width-5-col ratio-square bg-moody-blue">
@@ -60,7 +60,7 @@
       <div class="content-container flex flex-between pt5 pb5">
         <div class="width-5-col" style="align-self: center;">
           <h3>Increasing conversion for a growing networking company</h3>
-          <p class="fs-small">UX & Information Architecture for Telnyx</p>
+          <p class="fs-small color-grey mt1 mb2">UX & Information Architecture for Telnyx</p>
           <g-link class="btn btn--gradient" to="/process">Approach</g-link>
         </div>
         <div class="width-5-col ratio-square bg-celeste">
@@ -69,7 +69,7 @@
     </section>
     <section class="bg-darkgrey">
       <div class="content-container pt6 pb6 color-white">
-        <h4>RECENT WORK</h4>
+        <h4 class="mb2">INDUSTRIES WE’VE WORKED IN</h4>
         <p class="width-6-col">Our team has experience working with startups and large enterprises across various industries.</p>
         <div class="flex flex-wrap flex-between width-8-col">
           <div class="width-2-col text-center mt4" v-for="(label, key) in industries" :key="key">
