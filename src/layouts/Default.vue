@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 
-    <header class="header content-container">
+    <header class="header content-container" :class="{ isDark }">
       <div class="header__left">
         <Logo />
       </div>
@@ -45,6 +45,7 @@ import ToggleTheme from '~/components/ToggleTheme.vue'
 
 export default {
   props: {
+    isDark: { default: false },
     showLogo: { default: true }
   },
   components: {
@@ -67,6 +68,10 @@ export default {
   z-index: 10;
   width: 100%;
   position: absolute;
+
+  &.isDark {
+    color: var(--color-white);
+  }
 
   &__left,
   &__right {

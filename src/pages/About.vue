@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout isDark="true">
     <section class="flex flex-column flex-j-center min-height-vh bg-darkgrey color-white pt6 pb6">
       <div class="content-container flex flex-column">
         <div class="width-6-col">

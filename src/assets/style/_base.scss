@@ -43,6 +43,10 @@ button, .btn {
 		background: var(--color-black);
 		box-shadow: none;
 		color: var(--color-white);
+		@at-root .isDark & {
+			background: var(--color-white);
+			color: var(--color-darkgrey);
+		}
 	}
 	&--gradient {
 		box-shadow: none;
