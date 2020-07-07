@@ -17,8 +17,7 @@ img {
 	max-width: 100%;
 }
 
-a,
-a:visited {
+a {
 	color: currentColor;
 }
 
@@ -101,4 +100,8 @@ input[type="text"] {
 	padding-left: var(--space);
 	padding-right: var(--space);
 	width: 100%;
+}
+
+.header-spacer {
+	height: 10rem;
 }
