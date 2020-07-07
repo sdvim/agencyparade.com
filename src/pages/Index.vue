@@ -117,7 +117,7 @@ export default {
     PostCard
   },
   metaInfo: {
-    title: 'Parade'
+    title: 'Home'
   },
   data() {
     return {
