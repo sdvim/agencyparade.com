@@ -4,7 +4,8 @@
 .text-capitalize { text-transform: capitalize; }
 
 .gradient-text {
-	background: var(--gradient-primary);
+  background: var(--gradient-primary);
+  background-clip: initial;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
