@@ -61,7 +61,7 @@
 
 .width-10-col {
   --column-width: calc(var(--grid-width) * 10);
-  --gutter-width: calc(var(--grid-gutter) * 9.75); // HACK: just used to center align some items
+  --gutter-width: calc(var(--grid-gutter) * 9);
   max-width: calc(var(--column-width) + var(--gutter-width));
   width: 100%;
 }
