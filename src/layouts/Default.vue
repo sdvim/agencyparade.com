@@ -21,7 +21,7 @@
       <div class="grid">
         <div class="grid__half">
           <Logo class="mb2" />
-          <p class="footer__location">Made in Washington DC</p>
+          <p class="footer__location">Made in Washington, D.C.</p>
         </div>
         <div class="grid__half">
           <a class="footer__email h2 mb2" href="mailto:hi@agencyparade.com">hi@agencyparade.com </a>
