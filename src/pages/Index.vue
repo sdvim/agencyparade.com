@@ -40,7 +40,7 @@
       </div>
     </section>
     <blockquote class="content-container text-center pt9 pb9">
-      <p class="fs-large">“Parade functioned as part of our team, helping to crystalize our vision and delivering incredible results in record time”</p>
+      <p class="fs-large mb1">“Parade functioned as part of our team, helping to crystalize our vision and delivering incredible results in record time”</p>
       <footer class="fs-small">– Brian, Product Manger at Telnyx</footer>
     </blockquote>
     <hr>
