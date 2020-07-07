@@ -53,6 +53,7 @@
           <g-link class="btn btn--gradient" to="/process">Approach</g-link>
         </div>
         <div class="width-5-col ratio-square bg-moody-blue">
+          <g-image class="pl4 pt4 pb4" alt="Pressed UI mockups" src="~/assets/images/work-pressed.png" blur="5" />
         </div>
       </div>
     </section>
@@ -64,6 +65,7 @@
           <g-link class="btn btn--gradient" to="/process">Approach</g-link>
         </div>
         <div class="width-5-col ratio-square bg-celeste">
+          <g-image class="pl4 pt4 pb2" alt="Telnyx UI mockup" src="~/assets/images/work-telnyx.png" blur="5" />
         </div>
       </div>
     </section>
