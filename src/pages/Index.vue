@@ -8,7 +8,7 @@
     </section>
     <hr>
     <section class="content-container flex pt6 pb5">
-      <div class="width-6-col flex flex-1">
+      <div class="width-6-col flex flex-1 flex-j-start pr2">
         <g-image alt="Design planning" src="~/assets/images/design-flow.svg" width="488" height="265" blur="5" />
       </div>
       <div class="width-6-col flex-1">
@@ -34,7 +34,7 @@
           </ul>
           <button class="btn--gradient">Ask about this</button>
         </div>
-        <div class="width-6-col flex flex-1 mla">
+        <div class="width-6-col flex flex-1 flex-j-end pl2">
           <g-image alt="Product evaluation" src="~/assets/images/evaluate-flow.svg" width="488" height="288" blur="5" />
         </div>
       </div>
@@ -45,12 +45,14 @@
     </blockquote>
     <hr>
     <section class="content-container pt6">
-      <h4>RECENT WORK</h4>
-      <div class="flex flex-between pt5 pb5">
-        <div class="width-5-col flex-as-center">
-          <h3>Helping Pressed validate a cross platform, on-demand laundry service</h3>
-          <p class="fs-small color-grey mt1 mb2">UX & UI for an MVP for Pressed</p>
-          <g-link class="btn btn--gradient" to="/process">Approach</g-link>
+      <h4 class="mb2 width-10-col mla mra">RECENT WORK</h4>
+      <div class="flex flex-between pt3 pb3">
+        <div class="width-7-col flex flex-center">
+          <div class="width-5-col">
+            <h3>Helping Pressed validate a cross platform, on-demand laundry service</h3>
+            <p class="fs-small color-grey mt1 mb2">UX & UI for an MVP for Pressed</p>
+            <g-link class="btn btn--gradient" to="/process">Approach</g-link>
+          </div>
         </div>
         <div class="width-5-col ratio-square bg-moody-blue">
           <g-image class="pl4 pt4 pb4" alt="Pressed UI mockups" src="~/assets/images/work-pressed.png" blur="5" />
@@ -58,11 +60,13 @@
       </div>
     </section>
     <section class="bg-offwhite">
-      <div class="content-container flex flex-between pt5 pb5">
-        <div class="width-5-col flex-as-center">
-          <h3>Increasing conversion for a growing networking company</h3>
-          <p class="fs-small color-grey mt1 mb2">UX & Information Architecture for Telnyx</p>
-          <g-link class="btn btn--gradient" to="/process">Approach</g-link>
+      <div class="content-container flex flex-between pt3 pb3">
+        <div class="width-7-col flex flex-center">
+          <div class="width-5-col">
+            <h3>Increasing conversion for a growing networking company</h3>
+            <p class="fs-small color-grey mt1 mb2">UX & Information Architecture for Telnyx</p>
+            <g-link class="btn btn--gradient" to="/process">Approach</g-link>
+          </div>
         </div>
         <div class="width-5-col ratio-square bg-celeste">
           <g-image class="pl4 pt4 pb2" alt="Telnyx UI mockup" src="~/assets/images/work-telnyx.png" blur="5" />
@@ -70,13 +74,15 @@
       </div>
     </section>
     <section class="bg-darkgrey">
-      <div class="content-container pt6 pb6 color-white">
-        <h4 class="mb2">INDUSTRIES WE’VE WORKED IN</h4>
-        <p class="width-6-col">Our team has experience working with startups and large enterprises across various industries.</p>
-        <div class="flex flex-wrap flex-between width-8-col">
-          <div class="width-2-col text-center mt4" v-for="(label, key) in industries" :key="key">
-            <img :alt="label" :src="`/icons/${key}.svg`" width="48" height="48" />
-            <p class="fs-small color-white">{{ label }}</p>
+      <div class="content-container pt6 pb6 color-white flex flex-j-center">
+        <div class="width-10-col">
+          <h4 class="mb2">INDUSTRIES WE’VE WORKED IN</h4>
+          <p class="width-6-col">Our team has experience working with startups and large enterprises across various industries.</p>
+          <div class="flex flex-wrap flex-between width-8-col">
+            <div class="width-2-col text-center mt4" v-for="(label, key) in industries" :key="key">
+              <img :alt="label" :src="`/icons/${key}.svg`" width="48" height="48" />
+              <p class="fs-small color-white">{{ label }}</p>
+            </div>
           </div>
         </div>
       </div>

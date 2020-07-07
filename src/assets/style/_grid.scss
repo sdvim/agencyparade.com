@@ -24,6 +24,13 @@
   width: 100%;
 }
 
+.width-4-col {
+  --column-width: calc(var(--grid-width) * 4);
+  --gutter-width: calc(var(--grid-gutter) * 3);
+  max-width: calc(var(--column-width) + var(--gutter-width));
+  width: 100%;
+}
+
 .width-5-col {
   --column-width: calc(var(--grid-width) * 5);
   --gutter-width: calc(var(--grid-gutter) * 4);
@@ -38,9 +45,23 @@
   width: 100%;
 }
 
+.width-7-col {
+  --column-width: calc(var(--grid-width) * 7);
+  --gutter-width: calc(var(--grid-gutter) * 6);
+  max-width: calc(var(--column-width) + var(--gutter-width));
+  width: 100%;
+}
+
 .width-8-col {
   --column-width: calc(var(--grid-width) * 8);
   --gutter-width: calc(var(--grid-gutter) * 7);
+  max-width: calc(var(--column-width) + var(--gutter-width));
+  width: 100%;
+}
+
+.width-10-col {
+  --column-width: calc(var(--grid-width) * 10);
+  --gutter-width: calc(var(--grid-gutter) * 9.75); // HACK: just used to center align some items
   max-width: calc(var(--column-width) + var(--gutter-width));
   width: 100%;
 }
