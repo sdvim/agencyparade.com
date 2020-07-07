@@ -34,8 +34,8 @@
           </ul>
           <button class="btn--gradient">Ask about this</button>
         </div>
-        <div class="width-6-col flex flex-1">
-          <g-image alt="Product evaluation" src="~/assets/images/evaluate-flow.svg" width="488" height="288" blur="5" style="margin-left: auto;" />
+        <div class="width-6-col flex flex-1 mla">
+          <g-image alt="Product evaluation" src="~/assets/images/evaluate-flow.svg" width="488" height="288" blur="5" />
         </div>
       </div>
     </section>
@@ -47,7 +47,7 @@
     <section class="content-container pt6">
       <h4>RECENT WORK</h4>
       <div class="flex flex-between pt5 pb5">
-        <div class="width-5-col" style="align-self: center;">
+        <div class="width-5-col flex-as-center">
           <h3>Helping Pressed validate a cross platform, on-demand laundry service</h3>
           <p class="fs-small color-grey mt1 mb2">UX & UI for an MVP for Pressed</p>
           <g-link class="btn btn--gradient" to="/process">Approach</g-link>
@@ -59,7 +59,7 @@
     </section>
     <section class="bg-offwhite">
       <div class="content-container flex flex-between pt5 pb5">
-        <div class="width-5-col" style="align-self: center;">
+        <div class="width-5-col flex-as-center">
           <h3>Increasing conversion for a growing networking company</h3>
           <p class="fs-small color-grey mt1 mb2">UX & Information Architecture for Telnyx</p>
           <g-link class="btn btn--gradient" to="/process">Approach</g-link>

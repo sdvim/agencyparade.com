@@ -107,5 +107,5 @@ input[type="text"] {
 }
 
 .header-spacer {
-	height: 10rem;
+	height: var(--header-height);
 }
