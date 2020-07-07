@@ -1,17 +1,19 @@
 <template>
   <section class="contact-form pt6 pb6">
     <form class="content-container">
-      <h3 class="mb3">Get in touch</h3>
-      <div>
-        <label class="radio-btn mr1" v-for="(subject, key) in subjects" :key="key">
-          <input type="radio" name="subject" :value="key" v-model="selectedSubject">
-          <span class="btn">{{ subject.label }}</span>
-        </label>
+      <div class="width-10-col mla mra">
+        <h3 class="mb3">Get in touch</h3>
+        <div>
+          <label class="radio-btn mr1" v-for="(subject, key) in subjects" :key="key">
+            <input type="radio" name="subject" :value="key" v-model="selectedSubject">
+            <span class="btn">{{ subject.label }}</span>
+          </label>
+        </div>
+        <input class="mt3 width-6-col" type="text" name="name" placeholder="Name" />
+        <input class="mt3 width-6-col" type="text" name="email" placeholder="Email" />
+        <input class="mt3 width-6-col" type="text" name="body" :placeholder="selectedPlaceholder" />
+        <button class="mt4 btn--filled">Submit</button>
       </div>
-      <input class="mt3 width-6-col" type="text" name="name" placeholder="Name" />
-      <input class="mt3 width-6-col" type="text" name="email" placeholder="Email" />
-      <input class="mt3 width-6-col" type="text" name="body" :placeholder="selectedPlaceholder" />
-      <button class="mt4 btn--filled">Submit</button>
     </form>
   </section>
 </template>
