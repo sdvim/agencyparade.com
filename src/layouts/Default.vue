@@ -7,6 +7,8 @@
       </div>
       
       <div class="header__right">        
+        <g-link class="text-bare mr4" to="/process">Process</g-link>
+        <g-link class="text-bare mr4" to="/about">About</g-link>
         <g-link class="btn btn--filled" to="/contact">Contact</g-link>
       </div>
     </header>
