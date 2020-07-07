@@ -23,24 +23,28 @@
       </div>
     </section>
     <section class="bg-darkgrey pt6 pb6">
-      <div class="content-container">
-        <h4 class="mb2">CAPABILITIES</h4>
-        <div class="flex">
-          <div class="width-3-col" v-for="(list, title) in capabilities" :key="title">
-            <h3 class="color-grey mb2">{{ title }}</h3>
-            <ul class="fs18 mb0 color-white">
-              <li v-for="item in list" :key="item">{{ item }}</li>
-            </ul>
+      <div class="content-container flex flex-j-center">
+        <div class="width-10-col">
+          <h4 class="mb2">CAPABILITIES</h4>
+          <div class="flex">
+            <div class="width-3-col" v-for="(list, title) in capabilities" :key="title">
+              <h3 class="color-grey mb2">{{ title }}</h3>
+              <ul class="fs18 mb0 color-white">
+                <li v-for="item in list" :key="item">{{ item }}</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <section class="pt9 pb9">
-      <div class="content-container flex flex-between flex-a-center">
-        <div class="width-5-col mr2">
-          <g-image src="~/assets/images/development.svg" />
+      <div class="content-container flex flex-j-center">
+        <div class="width-10-col flex flex-j-between flex-a-center">
+          <div class="width-5-col">
+            <g-image src="~/assets/images/development.svg" />
+          </div>
+          <p class="fs-large width-5-col ml1c">Execute confidently with development-ready designs your engineering team needs</p>
         </div>
-        <p class="fs-large width-5-col">Execute confidently with development-ready designs your engineering team needs</p>
       </div>
     </section>
     <hr>
