@@ -26,9 +26,9 @@
         <div class="grid__half">
           <a class="footer__email h2 mb2" href="mailto:hi@agencyparade.com">hi@agencyparade.com </a>
           <ul class="footer__links">
-            <li><a href="/process">Process</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><g-link to="/process">Process</g-link></li>
+            <li><g-link to="/about">About</g-link></li>
+            <li><g-link to="/contact">Contact</g-link></li>
           </ul>
         </div>
       </div>
