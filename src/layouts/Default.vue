@@ -68,13 +68,6 @@ export default {
   width: 100%;
   position: absolute;
 
-  .logo {
-    transform: translateX(-43%);
-    svg {
-      height: 3.75rem;
-    }
-  }
-
   &__left,
   &__right {
     display: flex;
