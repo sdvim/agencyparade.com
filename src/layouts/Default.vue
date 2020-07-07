@@ -20,11 +20,11 @@
     <footer class="footer">
       <div class="grid">
         <div class="grid__half">
-          <Logo />
+          <Logo class="mb2" />
           <p class="footer__location">Made in Washington DC</p>
         </div>
         <div class="grid__half">
-          <a class="footer__email h2" href="mailto:hi@agencyparade.com">hi@agencyparade.com </a>
+          <a class="footer__email h2 mb2" href="mailto:hi@agencyparade.com">hi@agencyparade.com </a>
           <ul class="footer__links">
             <li><a href="/process">Process</a></li>
             <li><a href="/about">About</a></li>
@@ -89,7 +89,6 @@ export default {
   padding: 10rem calc(2 * var(--space)) 4rem;
 
   .logo {
-    margin-bottom: 1rem;
     svg {
       height: 4rem;
     }
@@ -97,15 +96,11 @@ export default {
 
   &__location {
     opacity: .5;
-    margin-left: calc(var(--grid-width) + var(--grid-gutter));
-    margin-left: 95px;
-    margin-bottom: 0;
   }
 
   &__email {
     display: block;
     letter-spacing: -1px;
-    margin-bottom: 3.1666rem;
   }
 
   &__links {
