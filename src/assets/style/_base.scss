@@ -56,16 +56,6 @@ button, .btn {
 	}
 }
 
-.btn.mbp-no-btn {
-	background: unset;
-	border-radius: unset;
-	box-shadow: unset;
-	color: unset;
-	padding: unset;
-	font-family: unset;
-	font-weight: unset;
-}
-
 .radio-btn {
 	input {
 		display: none;
@@ -122,4 +112,13 @@ input[type="text"] {
 
 @media screen and (max-width: 640px) {
 	hr { height: 1rem; }
+	.btn.mbp-no-btn {
+		background: unset;
+		border-radius: unset;
+		box-shadow: unset;
+		color: unset;
+		padding: unset;
+		font-family: unset;
+		font-weight: unset;
+	}
 }

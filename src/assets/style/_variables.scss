@@ -27,11 +27,12 @@ body {
 	--grid-gutter: 30px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 768px) {
 	body {
 		--grid-columns: 8;
 		--grid-width: 63px;
 		--grid-gutter: 24px;
+		--grid-container-width: 640px;
 	}
 }
 

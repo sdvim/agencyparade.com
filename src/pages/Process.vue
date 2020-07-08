@@ -26,8 +26,8 @@
       <div class="content-container flex flex-j-center">
         <div class="width-10-col">
           <h4 class="mb2">CAPABILITIES</h4>
-          <div class="flex mbp-flex-column">
-            <div class="width-3-col mbp-width-full mbp-mb3" v-for="(list, title) in capabilities" :key="title">
+          <div class="flex flex-wrap mbp-flex-column">
+            <div class="width-3-col tbp-width-half mbp-width-full tbp-mb3" v-for="(list, title) in capabilities" :key="title">
               <h3 class="color-grey mb2">{{ title }}</h3>
               <ul class="fs18 mb0 color-white">
                 <li v-for="item in list" :key="item">{{ item }}</li>
@@ -39,11 +39,11 @@
     </section>
     <section class="pt9 pb9">
       <div class="content-container flex flex-j-center ">
-        <div class="width-10-col flex flex-j-between flex-a-center mbp-flex-column">
-          <div class="width-5-col mbp-width-full mbp-mb3">
+        <div class="width-10-col flex flex-j-between flex-a-center tbp-flex-column">
+          <div class="width-5-col mbp-width-full tbp-mb3">
             <g-image src="~/assets/images/development.svg" />
           </div>
-          <p class="fs-large width-5-col ml1c mbp-width-full mbp-ml0 mbp-text-center">Execute confidently with development-ready designs your engineering team needs</p>
+          <p class="fs-large width-5-col ml1c mbp-width-full tbp-ml0 tbp-text-center">Execute confidently with development-ready designs your engineering team needs</p>
         </div>
       </div>
     </section>

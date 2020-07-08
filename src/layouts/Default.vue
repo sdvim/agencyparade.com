@@ -20,10 +20,10 @@
     <ContactForm />
 
     <footer class="footer">
-      <div class="grid mbp-flex-column mbp-width-full">
+      <div class="grid tbp-flex-column mbp-width-full">
         <div class="grid__half mbp-width-full">
           <Logo class="mb2 mbp-mb0" />
-          <p class="footer__location mbp-mb3 mbp-fs-small">Made in Washington, D.C.</p>
+          <p class="footer__location tbp-mb3 mbp-fs-small">Made in Washington, D.C.</p>
         </div>
         <div class="grid__half mbp-flex mbp-flex-column mbp-width-full">
           <a class="footer__email h2 mb2 mbp-mb0 mbp-mt4" href="mailto:hi@agencyparade.com">hi@agencyparade.com </a>

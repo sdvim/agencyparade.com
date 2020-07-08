@@ -101,6 +101,13 @@ li {
   margin: 0;
 }
 
+@media screen and (max-width: 768px) {
+  body { font-size: 1.666666rem; }
+  h1, .h1 { font-size: 4.5rem; letter-spacing: -0.5px; }
+  h2, .h2 { font-size: 3rem; }
+  h3, .h3 { font-size: 3rem; line-height: 1.2; }
+}
+
 @media screen and (max-width: 640px) {
   body { font-size: 1.5rem; }
   h1, .h1 { font-size: 3.666666rem; letter-spacing: -0.5px; }
