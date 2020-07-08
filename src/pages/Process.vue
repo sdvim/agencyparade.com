@@ -1,33 +1,33 @@
 <template>
   <Layout>
-    <section class="flex flex-column flex-j-center min-height-vh pt6 pb6">
-      <div class="content-container flex flex-between flex-a-center">
+    <section class="flex flex-column flex-j-center min-height-vh pv6 mbp-pv4">
+      <div class="content-container flex flex-between flex-a-center mbp-flex-column mbp-mthh">
         <div class="width-6-col">
           <h1 class="mb2">Approach</h1>
           <p class="color-grey">We communicate insight early and often, functioning as an embedded part of your team to deliver solutions built on a shared vision.</p>
         </div>
-        <div class="width-5-col ml2">
+        <div class="width-5-col ml2 mbp-width-full mbp-ml0 mbp-mt4">
           <g-image src="~/assets/images/approach.svg" />
         </div>
       </div>
     </section>
-    <section class="bg-offwhite pt6 pb6">
+    <section class="bg-offwhite pv6 mbp-pv4">
       <div class="content-container flex flex-j-end">
         <div class="width-8-col">
           <h4>PROCESS</h4>
-          <div class="flex flex-between pt2 pb4" :class="index !== Object.keys(processes).length - 1 ? 'bb1' : ''" v-for="(text, title, index) in processes" :key="title">
-            <h3 class="flex-1 width-3-col text-capitalize">{{ title }}</h3>
+          <div class="flex flex-between pt2 pb4 mbp-flex-column" :class="index !== Object.keys(processes).length - 1 ? 'bb1' : ''" v-for="(text, title, index) in processes" :key="title">
+            <h3 class="flex-1 width-3-col text-capitalize mbp-mb1">{{ title }}</h3>
             <p class="flex-1 fs18">{{ text }}</p>
           </div>
         </div>
       </div>
     </section>
-    <section class="bg-darkgrey pt6 pb6">
+    <section class="bg-darkgrey pv6 mbp-pv4">
       <div class="content-container flex flex-j-center">
         <div class="width-10-col">
           <h4 class="mb2">CAPABILITIES</h4>
-          <div class="flex">
-            <div class="width-3-col" v-for="(list, title) in capabilities" :key="title">
+          <div class="flex mbp-flex-column">
+            <div class="width-3-col mbp-width-full mbp-mb3" v-for="(list, title) in capabilities" :key="title">
               <h3 class="color-grey mb2">{{ title }}</h3>
               <ul class="fs18 mb0 color-white">
                 <li v-for="item in list" :key="item">{{ item }}</li>
@@ -38,12 +38,12 @@
       </div>
     </section>
     <section class="pt9 pb9">
-      <div class="content-container flex flex-j-center">
-        <div class="width-10-col flex flex-j-between flex-a-center">
-          <div class="width-5-col">
+      <div class="content-container flex flex-j-center ">
+        <div class="width-10-col flex flex-j-between flex-a-center mbp-flex-column">
+          <div class="width-5-col mbp-width-full mbp-mb3">
             <g-image src="~/assets/images/development.svg" />
           </div>
-          <p class="fs-large width-5-col ml1c">Execute confidently with development-ready designs your engineering team needs</p>
+          <p class="fs-large width-5-col ml1c mbp-width-full mbp-ml0 mbp-text-center">Execute confidently with development-ready designs your engineering team needs</p>
         </div>
       </div>
     </section>

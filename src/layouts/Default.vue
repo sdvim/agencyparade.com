@@ -20,21 +20,21 @@
     <ContactForm />
 
     <footer class="footer">
-      <div class="grid">
-        <div class="grid__half">
-          <Logo class="mb2" />
-          <p class="footer__location">Made in Washington, D.C.</p>
+      <div class="grid mbp-flex-column mbp-width-full">
+        <div class="grid__half mbp-width-full">
+          <Logo class="mb2 mbp-mb0" />
+          <p class="footer__location mbp-mb3 mbp-fs-small">Made in Washington, D.C.</p>
         </div>
-        <div class="grid__half">
-          <a class="footer__email h2 mb2" href="mailto:hi@agencyparade.com">hi@agencyparade.com </a>
-          <ul class="footer__links">
-            <li><g-link to="/process">Process</g-link></li>
-            <li><g-link to="/about">About</g-link></li>
-            <li><g-link to="/contact">Contact</g-link></li>
+        <div class="grid__half mbp-flex mbp-flex-column mbp-width-full">
+          <a class="footer__email h2 mb2 mbp-mb0 mbp-mt4" href="mailto:hi@agencyparade.com">hi@agencyparade.com </a>
+          <ul class="footer__links mbp-flex-column mbp-flex-o-1">
+            <li class="mbp-mb2"><g-link to="/process">Process</g-link></li>
+            <li class="mbp-mb2"><g-link to="/about">About</g-link></li>
+            <li class="mbp-mb2"><g-link to="/contact">Contact</g-link></li>
           </ul>
         </div>
       </div>
-      <div class="footer__copyright">&copy; Agency Parade. All Rights Reserved.</div>
+      <div class="footer__copyright mbp-text-left">&copy; Agency Parade. All Rights Reserved.</div>
     </footer>
 
   </div>
@@ -86,6 +86,14 @@ export default {
   //   position: sticky;
   //   width: 100%;
   // }
+  @media screen and (max-width: 640px) {
+    .header__right {
+      display: none;
+    }
+    .logo svg {
+      width: 4rem;
+    }
+  }
 }
 
 .footer {
@@ -94,6 +102,10 @@ export default {
   font-size: 1.5rem;
   line-height: 1.5555;
   padding: 10rem calc(2 * var(--space)) 4rem;
+
+  @media screen and (max-width: 640px) {
+    padding: 4rem var(--space);
+  }
 
   .logo {
     svg {
@@ -117,7 +129,6 @@ export default {
     margin: 0;
 
     li {
-      margin: 0;
       min-width: var(--grid-width);
       margin-right: var(--grid-gutter);
     }

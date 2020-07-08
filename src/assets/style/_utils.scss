@@ -85,6 +85,8 @@
 .pr3 { padding-right: 3rem; }
 .pr4 { padding-right: 4rem; }
 
+.pv6 { padding-top: 6rem; padding-bottom: 6rem; }
+
 .bg-offwhite { background-color: var(--color-offwhite); }
 .bg-moody-blue { background-color: var(--color-moody-blue); }
 .bg-celeste { background-color: var(--color-celeste); }
@@ -109,4 +111,25 @@
     display: block;
     padding-bottom: 100%;
   }
+}
+
+@media screen and (max-width: 640px) {
+  .mbp-flex { display: flex; }
+  .mbp-flex-column { flex-direction: column; }
+  .mbp-pv4 { padding-top: 4rem; padding-bottom: 4rem; }
+  .mbp-ml0 { margin-left: 0rem; }
+  .mbp-mr0 { margin-right: 0rem; }
+  .mbp-mb0 { margin-bottom: 0rem; }
+  .mbp-mb1 { margin-bottom: 1rem; }
+  .mbp-mb2 { margin-bottom: 2rem; }
+  .mbp-mb3 { margin-bottom: 3rem; }
+  .mbp-mb4 { margin-bottom: 4rem; }
+  .mbp-mt4 { margin-top: 4rem; }
+  .mbp-mthh { margin-top: var(--header-height); }
+  .mbp-flex-o-1 { order: -1; }
+  .mbp-width-full { max-width: unset !important; width: 100% !important; } // HACK: need to reorder some things
+  .mbp-width-half { max-width: 50% !important; } // HACK: need to reorder some things
+  .mbp-block { display: block; width: 100%; }
+  .mbp-text-left { text-align: left !important; } // HACK: need to refactor footer
+  .mbp-text-center { text-align: center; }
 }

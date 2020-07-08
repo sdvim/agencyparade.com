@@ -32,7 +32,7 @@ body {
 		--grid-columns: 8;
 		--grid-width: 63px;
 		--grid-gutter: 24px;
-		}
+	}
 }
 
 @media screen and (max-width: 640px) {
@@ -40,7 +40,9 @@ body {
 		--grid-columns: 6;
 		--grid-width: 44px;
 		--grid-gutter: 13px;
-		}
+		--grid-container-width: 327px;
+		--header-height: 6.666666rem;
+	}
 }
 
 

@@ -110,3 +110,7 @@ input[type="text"] {
 .header-spacer {
 	height: var(--header-height);
 }
+
+@media screen and (max-width: 640px) {
+	hr { height: 1rem; }
+}
