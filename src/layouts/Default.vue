@@ -7,7 +7,7 @@
       </div>
       
       <div class="header__right">        
-        <g-link class="text-bare mr4 mbp-mr2" to="/process">Process</g-link>
+        <g-link class="text-bare mr4 mbp-mr2" to="/approach">Approach</g-link>
         <g-link class="text-bare mr4 mbp-mr2" to="/about">About</g-link>
         <g-link class="btn btn--filled mbp-no-btn" to="/contact">Contact</g-link>
       </div>
@@ -28,7 +28,7 @@
         <div class="grid__half mbp-flex mbp-flex-column mbp-width-full">
           <a class="footer__email h2 mb2 mbp-mb0 mbp-mt4" href="mailto:hi@agencyparade.com">hi@agencyparade.com </a>
           <ul class="footer__links mbp-flex-column mbp-flex-o-1">
-            <li class="mbp-mb2"><g-link to="/process">Process</g-link></li>
+            <li class="mbp-mb2"><g-link to="/approach">Approach</g-link></li>
             <li class="mbp-mb2"><g-link to="/about">About</g-link></li>
             <li class="mbp-mb2"><g-link to="/contact">Contact</g-link></li>
           </ul>
