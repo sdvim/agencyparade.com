@@ -28,8 +28,8 @@
         <div class="grid__half mbp-flex mbp-flex-column mbp-width-full">
           <a class="footer__email h2 mb2 mbp-mb0 mbp-mt4" href="mailto:hi@agencyparade.com">hi@agencyparade.com </a>
           <ul class="footer__links mbp-flex-column mbp-flex-o-1">
-            <li class="mbp-mb2"><g-link to="/approach">Our Approach</g-link></li>
-            <li class="mbp-mb2"><g-link to="/about">About</g-link></li>
+            <li class="mbp-mb2 mr2"><g-link to="/approach">Our Approach</g-link></li>
+            <li class="mbp-mb2 mr2"><g-link to="/about">About</g-link></li>
             <li class="mbp-mb2"><g-link to="/contact">Contact</g-link></li>
           </ul>
         </div>
@@ -125,11 +125,6 @@ export default {
     list-style: none;
     padding: 0;
     margin: 0;
-
-    li {
-      min-width: var(--grid-width);
-      margin-right: var(--grid-gutter);
-    }
   }
 
   &__copyright {
