@@ -118,6 +118,9 @@ export default {
   &__email {
     display: block;
     letter-spacing: -1px;
+    @media screen and (max-width: 320px) {
+      font-size: 2rem;
+    }
   }
 
   &__links {
