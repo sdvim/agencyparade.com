@@ -7,8 +7,8 @@
       </div>
       
       <div class="header__right">        
-        <g-link class="text-bare mr4 mbp-mr2" to="/approach">Our Approach</g-link>
-        <g-link class="text-bare mr4 mbp-mr2" to="/about">About</g-link>
+        <g-link class="btn btn--transparent mr1 mbp-mr0" to="/approach">Our Approach</g-link>
+        <g-link class="btn btn--transparent mr1 mbp-mr0" to="/about">About</g-link>
         <g-link class="btn btn--filled mbp-no-btn" to="/contact">Contact</g-link>
       </div>
     </header>
@@ -86,7 +86,14 @@ export default {
   // }
   @media screen and (max-width: 640px) {
     .header__right {
-      // display: none;
+      .btn {
+        font-size: 1.25rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        &:last-child {
+          padding-right: 0;
+        }
+      }
     }
     .logo svg {
       width: 4rem;
