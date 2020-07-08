@@ -8,7 +8,6 @@
 body {
  	background-color: var(--color-white);
  	color: var(--color-darkgrey);
- 	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -55,6 +54,16 @@ button, .btn {
 		border-image-slice: 1;
 		border-image-source: var(--gradient-primary);
 	}
+}
+
+.btn.mbp-no-btn {
+	background: unset;
+	border-radius: unset;
+	box-shadow: unset;
+	color: unset;
+	padding: unset;
+	font-family: unset;
+	font-weight: unset;
 }
 
 .radio-btn {

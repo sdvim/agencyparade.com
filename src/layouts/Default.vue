@@ -7,9 +7,9 @@
       </div>
       
       <div class="header__right">        
-        <g-link class="text-bare mr4" to="/process">Process</g-link>
-        <g-link class="text-bare mr4" to="/about">About</g-link>
-        <g-link class="btn btn--filled" to="/contact">Contact</g-link>
+        <g-link class="text-bare mr4 mbp-mr2" to="/process">Process</g-link>
+        <g-link class="text-bare mr4 mbp-mr2" to="/about">About</g-link>
+        <g-link class="btn btn--filled mbp-no-btn" to="/contact">Contact</g-link>
       </div>
     </header>
 
@@ -43,7 +43,6 @@
 <script>
 import ContactForm from '~/components/ContactForm.vue'
 import Logo from '~/components/Logo.vue'
-import ToggleTheme from '~/components/ToggleTheme.vue'
 
 export default {
   props: {
@@ -53,8 +52,7 @@ export default {
   components: {
     ContactForm,
     Logo,
-    ToggleTheme
-  }
+  },
 }
 </script>
 
@@ -88,7 +86,7 @@ export default {
   // }
   @media screen and (max-width: 640px) {
     .header__right {
-      display: none;
+      // display: none;
     }
     .logo svg {
       width: 4rem;
