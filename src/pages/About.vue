@@ -1,7 +1,7 @@
 <template>
   <Layout isDark="true">
     <section class="flex flex-column flex-j-center min-height-vh bg-darkgrey color-white pv6 mbp-pv4">
-      <div class="content-container flex flex-column mbp-mthh">
+      <div class="content-container flex flex-column pvhh">
         <div class="width-6-col">
           <h1 class="mb2">What we do</h1>
         </div>

@@ -34,6 +34,7 @@
 .mt4 { margin-top: 4rem; }
 .mt5 { margin-top: 5rem; }
 .mt6 { margin-top: 6rem; }
+.mthh { margin-top: var(--header-height); }
 
 .mb0 { margin-bottom: 0rem; }
 .mb1 { margin-bottom: 1rem; }
@@ -87,6 +88,7 @@
 .pr4 { padding-right: 4rem; }
 
 .pv6 { padding-top: 6rem; padding-bottom: 6rem; }
+.pvhh { padding-top: var(--header-height); padding-bottom: var(--header-height); }
 
 .bg-offwhite { background-color: var(--color-offwhite); }
 .bg-moody-blue { background-color: var(--color-moody-blue); }

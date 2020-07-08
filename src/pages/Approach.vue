@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <section class="flex flex-column flex-j-center min-height-vh pv6 mbp-pv4">
-      <div class="content-container flex flex-between flex-a-center mbp-flex-column mbp-mthh">
+      <div class="content-container flex flex-between flex-a-center mbp-flex-column pvhh">
         <div class="width-6-col">
           <h1 class="mb2">Approach</h1>
           <p class="color-grey">We communicate insight early and often, functioning as an embedded part of your team to deliver solutions built on a shared vision.</p>
