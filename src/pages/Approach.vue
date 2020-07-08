@@ -54,7 +54,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Process'
+    title: 'Our Approach'
   },
   data() {
     return {
