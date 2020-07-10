@@ -17,7 +17,7 @@
       <slot/>
     </main>
 
-    <ContactForm />
+    <ContactForm ref="contactForm" />
 
     <footer class="footer">
       <div class="grid tbp-flex-column mbp-width-full flex-a-end tbp-flex-a-start">

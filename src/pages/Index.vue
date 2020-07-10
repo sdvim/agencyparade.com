@@ -19,7 +19,7 @@
           <li>Design and validate concepts</li>
           <li>Deliver high fidelity assets ready for development</li>
         </ul>
-        <button class="btn--gradient">Ask about this</button>
+        <button class="btn--gradient" @click="scrollToForm('design')">Ask about this</button>
       </div>
     </section>
     <section class="bg-offwhite">
@@ -32,7 +32,7 @@
             <li>Validate designs with real users</li>
             <li>Maximize efficiency for your customers</li>
           </ul>
-          <button class="btn--gradient">Ask about this</button>
+          <button class="btn--gradient" @click="scrollToForm('evaluate')">Ask about this</button>
         </div>
         <div class="width-6-col flex flex-1 flex-j-end pl2 mbp-mb4 mbp-flex-o-1">
           <g-image alt="Product evaluation" src="~/assets/images/evaluate-flow.svg" width="488" height="288" blur="5" />
@@ -108,6 +108,14 @@ export default {
         government: 'Government',
       }
     };
+  },
+  methods: {
+    scrollToForm(index) {
+      const top = document.querySelector('.contact-form').offsetTop;
+      const behavior = 'smooth';
+      this.$root.$emit('selectSubject', index);
+      window.scroll({ top, behavior });
+    }
   }
 }
 </script>

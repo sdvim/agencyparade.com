@@ -48,6 +48,14 @@ export default {
       },
     }
   },
+  created() {
+    this.$root.$on('selectSubject', (key) => {
+      this.selectedSubject = key;
+    });
+  },
+  destroyed() {
+    this.$root.$off('selectSubject');
+  },
   computed: {
     selectedSubjectLabel() {
       return this.subjects[this.selectedSubject].label;
