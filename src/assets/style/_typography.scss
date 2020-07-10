@@ -101,6 +101,11 @@ li {
   margin: 0;
 }
 
+
+@media screen and (max-width: 1140px) {
+  h2, .h2 { font-size: 3rem; }
+}
+
 @media screen and (max-width: 768px) {
   body { font-size: 1.666666rem; }
   h1, .h1 { font-size: 4.5rem; letter-spacing: -0.5px; }
@@ -115,4 +120,8 @@ li {
   h3, .h3 { font-size: 2.5rem; line-height: 1.2; }
   .fs-small, .mbp-fs-small { font-size: 1.333333rem; }
   .fs-large { font-size: 2.166667rem; line-height: 1.3846153846; }
+}
+
+@media screen and (max-width: 320px) {
+  h2, .h2 { font-size: 2rem; }
 }

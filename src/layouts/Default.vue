@@ -20,7 +20,7 @@
     <ContactForm />
 
     <footer class="footer">
-      <div class="grid tbp-flex-column mbp-width-full">
+      <div class="grid tbp-flex-column mbp-width-full flex-a-end tbp-flex-a-start">
         <div class="grid__half mbp-width-full">
           <Logo class="mb2 mbp-mb0" />
           <p class="footer__location tbp-mb3 mbp-fs-small">Made in Washington, D.C.</p>
@@ -125,9 +125,6 @@ export default {
   &__email {
     display: block;
     letter-spacing: -1px;
-    @media screen and (max-width: 320px) {
-      font-size: 2rem;
-    }
   }
 
   &__links {

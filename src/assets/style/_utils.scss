@@ -18,6 +18,7 @@
 .flex-column { flex-direction: column; }
 .flex-center { align-items: center; justify-content: center; }
 .flex-a-center { align-items: center; }
+.flex-a-end { align-items: flex-end; }
 .flex-as-start { align-self: flex-start; }
 .flex-as-center { align-self: center; }
 .flex-as-end { align-self: flex-end; }
@@ -118,6 +119,7 @@
 
 @media screen and (max-width: 768px) {
   .tbp-flex-column { flex-direction: column; }
+  .tbp-flex-a-start { align-items: flex-start; }
   .tbp-mb2 { margin-bottom: 2rem; }
   .tbp-mb3 { margin-bottom: 3rem; }
   .tbp-ml0 { margin-left: 0rem; }
