@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <section class="flex flex-column pv6 flex-j-center min-height-vh">
+    <section class="flex flex-column pt6 pb5 flex-j-center">
       <div class="content-container pvhh">
         <h1 class="gradient-text mb2">Create digital experiences your customers will love</h1>
         <p class="color-grey width-6-col">Parade is a design team helping businesses elevate their web and mobile experiences.</p>
