@@ -4,7 +4,7 @@
       <div class="content-container flex flex-between flex-a-center mbp-flex-column pvhh">
         <div class="width-6-col">
           <h1 class="mb2">Approach</h1>
-          <p class="color-grey">We communicate insight early and often, functioning as an embedded part of your team to deliver solutions built on a shared vision.</p>
+          <p class="color-grey">We communicate insights early and often, functioning as an embedded part of your team to deliver solutions built on a shared vision.</p>
         </div>
         <div class="width-5-col ml2 mbp-width-full mbp-ml0 mbp-mt4">
           <g-image src="~/assets/images/approach.svg" />
@@ -63,13 +63,13 @@ export default {
         audit: 'Our evaluation includes an in-depth review of your website or product\'s content, navigation, interface, and overall user experience.',
         wireframe: 'Once we are aligned with your customers goals, we will create wireframes. This is done to layout the content and functionality of each page.',
         test: 'Usability testing ensures that functionality and layout are aligned to customer needs.',
-        style: 'We use you brand\'s identity is used as inspiration for color themes, font, icons, and hi-fidelity designs. Down’t worry if you haven’t figured it out yet, we can help with that too.',
-        deliver: 'We\'ll leave you with high fidelity mockups and an interactive prototype ready for handoff to engineers.',
+        style: 'We use your brand\'s identity as inspiration for color themes, font, icons, and high-fidelity designs. If you haven’t figured it out yet, we can help with that too.',
+        deliver: 'We\'ll leave you with high-fidelity mockups and an interactive prototype ready for handoff to engineers.',
       },
       capabilities: {
         Research: [
           'Usability testing',
-          'User Interviews',
+          'User interviews',
           'Heuristic analysis',
           'A/B testing',
         ],

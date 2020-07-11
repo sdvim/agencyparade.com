@@ -7,7 +7,7 @@
         </div>
         <div class="width-6-col flex-as-end tbp-flex-as-start">
           <p class="ml6c mb1 tbp-mb2">Parade is a nimble team of strategists and product designers dedicated to creating stunning digital products.</p>
-          <p class="ml6c mb1 tbp-mb2">Our team has experience designing websites and digital products. Understanding industry and customers shouldn't just inform business strategy, but also each design decision.</p>
+          <p class="ml6c mb1 tbp-mb2">Our team has experience designing a variety of digital products and we believe that understanding your industry and customers shouldn't just inform business strategy, but also each design decision.</p>
           <p class="ml6c">Using proven design thinking methods, our team works to uncover and blend business goals and user’s needs to build uncompromised digital experiences.</p>
         </div>
       </div>

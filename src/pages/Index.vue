@@ -17,7 +17,7 @@
         <ul class="fs-small mt2 mb2 color-grey">
           <li>Align on vision and project goals</li>
           <li>Design and validate concepts</li>
-          <li>Deliver high fidelity assets ready for development</li>
+          <li>Deliver high-fidelity assets ready for development</li>
         </ul>
         <button class="btn--gradient" @click="scrollToForm('design')">Ask about this</button>
       </div>
@@ -26,7 +26,7 @@
       <div class="content-container flex pt6 pb5 mbp-flex-column">
         <div class="width-6-col flex-1">
           <h2 class="mb3 mbp-mb2">Evaluate your<br>product or website</h2>
-          <p>We conduct an in-depth audit to identify what exactly your customers are looking for and pinpoint the spots where user experience can be improved.</p>
+          <p>We conduct an in-depth audit to identify what exactly your customers are looking for and pinpoint the spots where the user experience can be improved.</p>
           <ul class="fs-small mt2 mb2 color-grey">
             <li>Quickly uncover usability issues</li>
             <li>Validate designs with real users</li>
@@ -40,8 +40,8 @@
       </div>
     </section>
     <blockquote class="content-container text-center pt9 pb9">
-      <p class="fs-large mb1">“Parade functioned as part of our team, helping to crystalize our vision and delivering incredible results in record time”</p>
-      <footer class="fs-small color-grey">– Brian, Product Manger at Telnyx</footer>
+      <p class="fs-large mb1">“We gave Parade an incredibly complex project with a broad range of industry-specific requirements, and they were able to build us an excellent mock-up that was used to build a useful product.”</p>
+      <footer class="fs-small color-grey">– Brian, Product Manager at Telnyx</footer>
     </blockquote>
     <hr>
     <section class="content-container pt6">
