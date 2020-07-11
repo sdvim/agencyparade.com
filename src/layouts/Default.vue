@@ -17,7 +17,7 @@
       <slot/>
     </main>
 
-    <ContactForm ref="contactForm" />
+    <ContactForm ref="contactForm" v-if="showContactForm" />
 
     <footer class="footer">
       <div class="grid tbp-flex-column mbp-width-full flex-a-end tbp-flex-a-start">
@@ -47,6 +47,7 @@ import Logo from '~/components/Logo.vue'
 export default {
   props: {
     isDark: { default: false },
+    showContactForm: { default: true },
     showLogo: { default: true }
   },
   components: {

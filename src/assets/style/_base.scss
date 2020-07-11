@@ -20,6 +20,10 @@ a {
 	color: currentColor;
 }
 
+p a {
+	color: var(--color-seafoam-blue);
+}
+
 hr {
 	border: none;
 	width: 100%;
