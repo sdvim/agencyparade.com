@@ -41,7 +41,7 @@
     </section>
     <blockquote class="content-container text-center pt9 pb9">
       <p class="fs-large mb1">“We gave Parade an incredibly complex project with a broad range of industry-specific requirements, and they were able to build us an excellent mock-up that was used to build a useful product.”</p>
-      <footer class="fs-small color-grey">– Brian, Product Manager at Telnyx</footer>
+      <footer class="fs-small color-grey">– Product Manager at Telnyx</footer>
     </blockquote>
     <hr>
     <section class="content-container pt6">
