@@ -51,7 +51,7 @@
           <div class="width-5-col mbp-width-full">
             <h3>Helping Pressed validate a cross platform, on-demand laundry service</h3>
             <p class="fs-small color-grey mt1 mb2">UX & UI for an MVP for Pressed</p>
-            <g-link class="btn btn--gradient" to="/process">Our Approach</g-link>
+            <g-link class="btn btn--gradient" to="/approach">Our Approach</g-link>
           </div>
         </div>
         <div class="width-5-col ratio-square bg-moody-blue mbp-flex-o-1 mbp-width-full mbp-mb2">
@@ -65,7 +65,7 @@
           <div class="width-5-col mbp-width-full">
             <h3>Increasing conversion for a growing networking company</h3>
             <p class="fs-small color-grey mt1 mb2">UX & Information Architecture for Telnyx</p>
-            <g-link class="btn btn--gradient" to="/process">Our Approach</g-link>
+            <g-link class="btn btn--gradient" to="/approach">Our Approach</g-link>
           </div>
         </div>
         <div class="width-5-col ratio-square bg-celeste mbp-flex-o-1 mbp-width-full mbp-mb2">
